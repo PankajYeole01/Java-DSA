@@ -1,0 +1,25 @@
+//1) Print all prime numbers within specified SecurityManager
+import java.util.*;
+public class Main{
+    public static void main(String args[]){
+       Scanner sc = new Scanner(System.in);
+       System.out.println("Enter the number");
+       int a = sc.nextInt();
+       System.out.println("Prime numbers form one to specified range");
+       for(int i=2;i<=a;i++){
+           if (isPrime(i)){
+               System.out.print(i+" ");
+           }
+           
+       }
+    }
+    public static boolean isPrime(int n){
+        for (int i=2;i<=Math.sqrt(n);i++){
+            if (n % i == 0){
+                return false;
+            }
+        }
+        return true;
+        
+    }
+}

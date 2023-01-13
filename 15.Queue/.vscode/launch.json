@@ -1,0 +1,112 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch printBinary1ton",
+            "request": "launch",
+            "mainClass": "printBinary1ton",
+            "projectName": "15.Queue_633aa51b"
+        },
+        {
+            "type": "java",
+            "name": "Launch StackandqueueusinDeque",
+            "request": "launch",
+            "mainClass": "StackandqueueusinDeque",
+            "projectName": "15.Queue_633aa51b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch DequeJcf",
+            "request": "launch",
+            "mainClass": "DequeJcf",
+            "projectName": "15.Queue_633aa51b"
+        },
+        {
+            "type": "java",
+            "name": "Launch QueueImplementation",
+            "request": "launch",
+            "mainClass": "QueueImplementation",
+            "projectName": "15.Queue_633aa51b"
+        },
+        {
+            "type": "java",
+            "name": "Launch QueueReversal",
+            "request": "launch",
+            "mainClass": "QueueReversal",
+            "projectName": "15.Queue_633aa51b"
+        },
+        {
+            "type": "java",
+            "name": "Launch QueueusingJCF",
+            "request": "launch",
+            "mainClass": "QueueusingJCF",
+            "projectName": "15.Queue_633aa51b"
+        },
+        {
+            "type": "java",
+            "name": "Launch QueueusingStack",
+            "request": "launch",
+            "mainClass": "QueueusingStack",
+            "projectName": "15.Queue_633aa51b"
+        },
+        {
+            "type": "java",
+            "name": "Launch QueueusingStack2",
+            "request": "launch",
+            "mainClass": "QueueusingStack2",
+            "projectName": "15.Queue_633aa51b"
+        },
+        {
+            "type": "java",
+            "name": "Launch StackusinDeque",
+            "request": "launch",
+            "mainClass": "StackusinDeque",
+            "projectName": "15.Queue_633aa51b"
+        },
+        {
+            "type": "java",
+            "name": "Launch circularQueue",
+            "request": "launch",
+            "mainClass": "circularQueue",
+            "projectName": "15.Queue_633aa51b"
+        },
+        {
+            "type": "java",
+            "name": "Launch findnonRepeating",
+            "request": "launch",
+            "mainClass": "findnonRepeating",
+            "projectName": "15.Queue_633aa51b"
+        },
+        {
+            "type": "java",
+            "name": "Launch interLeave",
+            "request": "launch",
+            "mainClass": "interLeave",
+            "projectName": "15.Queue_633aa51b"
+        },
+        {
+            "type": "java",
+            "name": "Launch queueusingLinkedlist",
+            "request": "launch",
+            "mainClass": "queueusingLinkedlist",
+            "projectName": "15.Queue_633aa51b"
+        },
+        {
+            "type": "java",
+            "name": "Launch stackusingQueues",
+            "request": "launch",
+            "mainClass": "stackusingQueues",
+            "projectName": "15.Queue_633aa51b"
+        }
+    ]
+}

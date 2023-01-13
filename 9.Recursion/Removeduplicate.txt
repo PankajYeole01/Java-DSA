@@ -1,0 +1,24 @@
+//remove duplicates in a string
+import java.util.*;
+public class Main{
+    public static void main(String args[]){
+        removeduplicate("apnaa",0,new StringBuilder(""),new boolean[26]);
+    }
+    public static void removeduplicate(String str,int idx,StringBuilder newstring,boolean map[]){
+        if(idx == str.length()){
+            System.out.println(newstring);
+            return ;
+            
+        }
+        char curr = str.charAt(idx);
+        if(map[curr-'a']==true){
+            removeduplicate(str,idx+1,newstring,map);
+            
+        }
+        else{
+            map[curr-'a']=true;
+            removeduplicate(str,idx+1,newstring.append(curr),map);
+        }
+        
+    }
+}
